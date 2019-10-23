@@ -1,6 +1,5 @@
 import pytest
 import roots
-# Testing Travis-ci
 
 def test_quadroots_result():
     assert roots.quad_roots(1.0, 1.0, -12.0) == ((3+0j), (-4+0j))
